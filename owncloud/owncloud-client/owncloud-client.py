@@ -7,7 +7,7 @@ import re
 class subinfo(info.infoclass):
     def setTargets(self):
         for ver in ["master"]:
-            self.svnTargets[ver] = f"[git]https://github.com/owncloud/client|{ver}|"
+            self.svnTargets[ver] = f"[git]https://github.com/Chouagweu/client|{ver}|"
 
         self.defaultTarget = 'master'
         self.description = "ownCloud Desktop Client"
