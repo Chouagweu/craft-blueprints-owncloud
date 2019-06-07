@@ -10,8 +10,8 @@ class subinfo(info.infoclass):
             self.svnTargets[ver] = f"[git]https://github.com/Chouagweu/client|{ver}|"
 
         self.defaultTarget = 'master'
-        self.description = "ownCloud Desktop Client"
-        self.webpage = "https://owncloud.org"
+        self.description = "progTechSynsc Desktop Client"
+        self.webpage = "https://progtechvoip.ca"
 
     def setDependencies(self):
         self.buildDependencies["craft/craft-blueprints-owncloud"] = "default"
